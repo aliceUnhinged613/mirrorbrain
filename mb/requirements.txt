@@ -3,3 +3,6 @@ SQLObject
 psycopg2
 FormEncode
 cmdln
+aiohttp>=3.12.14 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
